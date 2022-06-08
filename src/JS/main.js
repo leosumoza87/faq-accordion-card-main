@@ -15,8 +15,7 @@ const faq = (num) => {
     } else if (prevNum == num) {
         console.log(` 2 .answer${prevNum}`);
         document.querySelector(`.answer${prevNum}`).toggleAttribute(`hidden`);
-        document.querySelector(`.question${prevNum}`).style.cssText = 'font-weight: 400; color: black; '; 
-        document.querySelector(`.question${prevNum}:hover`).style.cssText = 'cursor: pointer; color: var(--Soft-red);';   
+        document.querySelector(`.question${prevNum}`).style.cssText = 'font-weight: 400; color: black; cursor: pointer; color: var(--Soft-red); ';            
         document.querySelector(`.Q${prevNum} .arrow`).style.cssText = 'transform: rotate(0deg);';
         prevNum = 0;
 
@@ -24,8 +23,8 @@ const faq = (num) => {
 
         console.log(` 3 .answer${prevNum}`);
         document.querySelector(`.answer${prevNum}`).toggleAttribute(`hidden`);
-        document.querySelector(`.question${prevNum}`).style.cssText = 'font-weight: 400; color: black; '; 
-        document.querySelector(`.question${prevNum}:hover`).style.cssText = 'cursor: pointer; color: var(--Soft-red);';   
+        document.querySelector(`.question${prevNum}`).style.cssText = 'font-weight: 400; cursor: pointer; color: var(--Soft-red); '; 
+          
         document.querySelector(`.Q${prevNum} .arrow`).style.cssText = 'transform: rotate(0deg);';
 
             
