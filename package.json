@@ -2,7 +2,7 @@
   "name": "faq-accordion-card-main",
   "version": "1.0.0",
   "description": "Frontend Mentor Challenge HTML CSS JS build out this FAQ accordion card and get it looking as close to the design as possible.",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

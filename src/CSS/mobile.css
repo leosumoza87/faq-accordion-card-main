@@ -1,0 +1,49 @@
+main {
+    width: 327px;
+    height: 535px;   
+    display: flex;
+    flex-direction: column;
+    place-self: center;      
+}
+
+.image {
+    height: 134px; 
+    background-position: center -125px ;
+    background-size: 240px;
+         
+}
+
+.img {
+    width: 100%;
+    height: 100%;  
+    display: flex; 
+    overflow: visible;  
+    justify-content: center;     
+}
+
+.illustration-box {
+    top: -175px;
+    left: 45px;
+    width: 90px;
+    
+}
+
+.illustration-woman {
+    top: -85px;
+    left: 0;        
+    width: 240px;        
+    object-fit: cover;  
+    
+}
+
+.title {
+    place-self: center;
+}
+
+.FAQ {    
+    padding: 0;
+    width: 85%;
+    height: 65%;
+    place-self: center;
+}
+
